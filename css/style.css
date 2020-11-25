@@ -149,3 +149,15 @@ div.product-description {
     background-color: #008fb3;
     ;
 }
+@media screen and (max-width:600px){
+    .flex-container{
+      flex-direction:column;
+    }
+    .nav-link{
+      width:100%;
+      margin:auto;
+    }
+    .text{
+      width:400px;
+    }
+  }
